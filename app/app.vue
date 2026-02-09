@@ -22,9 +22,13 @@
 
 <script setup lang="ts">
 import { useReveal } from '~/composables/useReveal'
+import { seoConfig } from '~/utils/seo'
 
 // Initialize scroll reveal animations
 useReveal()
+
+// Configure global SEO metadata
+useSeoMeta(seoConfig)
 
 // Nuxt auto-imports components from app/components (in Nuxt 4)
 </script>
