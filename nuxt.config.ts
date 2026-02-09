@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
   app: {
+    baseURL: '/Portafolio/',
     head: {
       title: 'Dev.Portfolio | PLAYER 1 READY',
       link: [
