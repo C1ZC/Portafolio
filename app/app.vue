@@ -3,7 +3,7 @@
     <div class="noise-bg"></div>
     <CustomCursor />
     <RetroNav />
-    <main class="w-full flex flex-col items-center">
+    <main class="w-full flex flex-col items-center overflow-x-hidden">
       <HeroSection />
       <div class="w-full relative overflow-hidden">
         <!-- Shared background for Stats and Tech Carousel -->
