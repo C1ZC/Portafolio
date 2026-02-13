@@ -113,7 +113,7 @@ const projects = ref<Project[]>([
   {
     title: "Pokémon App con Django y SQL Server (local)",
     description: "Aplicación web para gestionar tu colección Pokémon usando la PokeAPI. Incluye login, filtros, vistas responsivas con Bootstrap 5 y persistencia en SQL Server. Totalmente funcional con autenticación, paginación y diseño adaptable.",
-    image: "/images/projects/project-img12.jpg", 
+    image: "images/projects/project-img12.jpg", 
     repoUrl: "https://github.com/C1ZC/web_project",
     appUrl: "https://web-project-newl.onrender.com/",
     badge: "Champion Stage",
@@ -123,7 +123,7 @@ const projects = ref<Project[]>([
   {
     title: "Chat Assistente",
     description: "Este es un proyecto chat assitente de token ChatGPT, con login y registro clasico, mas login y registro google conectado a un callback con supabase, base de datos usada en supabase, frontend es vue.js y el backend en python",
-    image: "/images/projects/project-img9.png",
+    image: "images/projects/project-img9.png",
     repoUrl: "https://youtu.be/H8E6JcF-_5U",
     appUrl: "https://youtu.be/S4m0CCRt2tA",
     badge: "AI Challenge",
@@ -133,7 +133,7 @@ const projects = ref<Project[]>([
   {
     title: "Lexia Demo",
     description: "Participe Full Stack en este proyecto Lexia para un cliente, ya creado como base, se adaptó para su empresa Lenguajes usados son Python en back-end, Vue.js en front-end.",
-    image: "/images/projects/project-img8.png",
+    image: "images/projects/project-img8.png",
     repoUrl: "https://youtu.be/-4qU89dSH2A",
     appUrl: "https://youtu.be/FkuQClc1e5M",
     badge: "Full Stack",
@@ -143,7 +143,7 @@ const projects = ref<Project[]>([
   {
     title: "Extractor de Datos de Clientes PDF",
     description: "Aplicación de escritorio para extraer datos de clientes desde facturas PDF y guardarlos en Excel. Desarrollada en Python con PyQt5, pdfplumber y openpyxl. Permite procesar múltiples archivos, corrige formatos de RUT y teléfono, y evita duplicados.",
-    image: "/images/projects/project-img10.png",
+    image: "images/projects/project-img10.png",
     repoUrl: "https://github.com/C1ZC/lector_facturas",
     appUrl: "https://www.youtube.com/watch?v=6_T9MchPnqY",
     badge: "Data Extract",
@@ -153,7 +153,7 @@ const projects = ref<Project[]>([
   {
     title: "WhatsApp Mensajería desde Excel",
     description: "Aplicación de escritorio para envío masivo de mensajes de WhatsApp a contactos importados desde archivos Excel. Permite filtrar destinatarios, personalizar mensajes y llevar historial de envíos. Desarrollada en Python con PyQt y SQLite.",
-    image: "/images/projects/project-img11.png",
+    image: "images/projects/project-img11.png",
     repoUrl: "https://github.com/C1ZC/lector_cartola_envia_wsp",
     appUrl: "",
     badge: "Automation",
@@ -163,7 +163,7 @@ const projects = ref<Project[]>([
   {
     title: "Aplicacion Web RRHH",
     description: "Pequeña aplicacion web para gestionar recursos humanos, crearda en React, Spring Boot y MySQL como base de datos, desplegada en Railway",
-    image: "/images/projects/project-img1.png",
+    image: "images/projects/project-img1.png",
     repoUrl: "https://github.com/C1ZC/rrss",
     appUrl: "https://rrss-production.up.railway.app/",
     badge: "Railway Deploy",
@@ -173,7 +173,7 @@ const projects = ref<Project[]>([
   {
     title: "Aplicacion Web Automotora",
     description: "Pequeña aplicacion web para gestionar una automotora, crearda en PHP y MySQL como base de datos, desplegada en Cpanel de Hostinger",
-    image: "/images/projects/project-img2.png",
+    image: "images/projects/project-img2.png",
     repoUrl: "https://github.com/C1ZC/Automotora",
     appUrl: "https://camilozavala.com/Automotora/",
     badge: "Legacy App",
@@ -183,7 +183,7 @@ const projects = ref<Project[]>([
   {
     title: "Login API Google",
     description: "Pequeña web hecha en PHP verion 8.3 con API OAuth 2.0 de login de Google, creada en PHP desplegada en Cpanel de Hostinger",
-    image: "/images/projects/project-img3.png",
+    image: "images/projects/project-img3.png",
     repoUrl: "https://github.com/C1ZC/Login-API-Google",
     appUrl: "https://camilozavala.com/Login-API-Google",
     badge: "OAuth 2.0",
@@ -193,7 +193,7 @@ const projects = ref<Project[]>([
   {
     title: "Camilo Zavala HERPM13051 S9",
     description: "Aplicación Android desarrollada en Kotlin, la aplicación permite registrar, eliminar y listar desde una API de productos. Además, utiliza SQLite para el almacenamiento persistente de datos, muestra un grafico con los 5 productos más vendidos.",
-    image: "/images/projects/project-img7.png",
+    image: "images/projects/project-img7.png",
     repoUrl: "https://github.com/C1ZC/camilo_zavala_herpm13051_s9",
     appUrl: "https://youtu.be/sz3H5cJS4yE",
     badge: "Android App",
@@ -203,7 +203,7 @@ const projects = ref<Project[]>([
   {
     title: "Camilo Zavala HERPM13051 S7",
     description: "Aplicación Android desarrollada en Kotlin, la aplicación permite funcionalidades como obtención de días feriados desde una API pública, visualización de los datos en forma de lista, una pantalla de bienvenida (SplashScreen), y un sistema de autenticación que almacena las preferencias del usuario para mantener la sesión iniciada. Además, ofrece la opción de cerrar sesión con un solo clic.",
-    image: "/images/projects/project-img6.png",
+    image: "images/projects/project-img6.png",
     repoUrl: "https://github.com/C1ZC/camilo_zavala_HERPM13051_s7",
     appUrl: "https://youtu.be/NxfkyU2xynw",
     badge: "Mobile Auth",

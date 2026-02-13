@@ -60,14 +60,14 @@
               <!-- PDF Viewer for PDF files -->
               <iframe 
                 v-if="item.certificate?.endsWith('.pdf')"
-                :src="item.certificate"
+               :src="`${useRuntimeConfig().app.baseURL}${item.certificate}`"
                 class="w-full h-[600px]"
                 frameborder="0"
               ></iframe>
               <!-- Image viewer for PNG/JPG files -->
               <img 
                 v-else
-                :src="item.certificate" 
+:src="`${useRuntimeConfig().app.baseURL}${item.certificate}`"
                 :alt="item.title"
                 class="w-full h-auto"
               />
@@ -122,7 +122,7 @@ const achievements: Achievement[] = [
     rarity: 'LEGENDARY',
     accent: 'bg-yellow-500',
     iconColor: 'text-yellow-400',
-    certificate: '/images/certificate/TÍTULO - Camilo Ignacio Zavala Cornejo - 18341656-1 - 14-12-2025.pdf'
+    certificate: 'images/certificate/TÍTULO - Camilo Ignacio Zavala Cornejo - 18341656-1 - 14-12-2025.pdf'
   },
   {
     title: 'Certificado de Título Profesional',
@@ -131,7 +131,7 @@ const achievements: Achievement[] = [
     rarity: 'LEGENDARY',
     accent: 'bg-yellow-500',
     iconColor: 'text-yellow-400',
-    certificate: '/images/certificate/CERTIFICADO DE TÍTULO Camilo Ignacio Zavala Cornejo - 18341656-1.pdf'
+    certificate: 'images/certificate/CERTIFICADO DE TÍTULO Camilo Ignacio Zavala Cornejo - 18341656-1.pdf'
   },
   {
     title: 'Diploma en Programación Avanzada',
@@ -140,7 +140,7 @@ const achievements: Achievement[] = [
     rarity: 'EPIC',
     accent: 'bg-purple-500',
     iconColor: 'text-purple-400',
-    certificate: '/images/certificate/DIPLOMA EN PROGRAMACIÓN AVANZADA -1.png'
+    certificate: 'images/certificate/DIPLOMA EN PROGRAMACIÓN AVANZADA -1.png'
   },
   {
     title: 'Diploma en Desarrollo Web',
@@ -149,7 +149,7 @@ const achievements: Achievement[] = [
     rarity: 'EPIC',
     accent: 'bg-purple-500',
     iconColor: 'text-purple-400',
-    certificate: '/images/certificate/DIPLOMA EN DESARROLLO WEB.png'
+    certificate: 'images/certificate/DIPLOMA EN DESARROLLO WEB.png'
   },
   {
     title: 'Diploma en Fundamentos de Programación y Bases de Datos',
@@ -158,7 +158,7 @@ const achievements: Achievement[] = [
     rarity: 'RARE',
     accent: 'bg-blue-500',
     iconColor: 'text-blue-400',
-    certificate: '/images/certificate/DIPLOMA EN FUNDAMENTOS DE PROGRAMACIÓN Y BASES DE DATOS -1.png'
+    certificate: 'images/certificate/DIPLOMA EN FUNDAMENTOS DE PROGRAMACIÓN Y BASES DE DATOS -1.png'
   },
   {
     title: 'React y Spring Boot: App Full Stack',
@@ -167,7 +167,7 @@ const achievements: Achievement[] = [
     rarity: 'RARE',
     accent: 'bg-primary',
     iconColor: 'text-primary',
-    certificate: '/images/certificate/UC-165c323b-3602-4683-82fd-1e9559c6b039-1.png'
+    certificate: 'images/certificate/UC-165c323b-3602-4683-82fd-1e9559c6b039-1.png'
   },
   {
     title: 'Bases de GIT, GITHUB',
@@ -176,7 +176,7 @@ const achievements: Achievement[] = [
     rarity: 'RARE',
     accent: 'bg-primary',
     iconColor: 'text-primary',
-    certificate: '/images/certificate/Camilo Ignacio Zavala Cornejo - 2024-06-10-1.png'
+    certificate: 'images/certificate/Camilo Ignacio Zavala Cornejo - 2024-06-10-1.png'
   },
   {
     title: 'Taller - Figma',
@@ -185,7 +185,7 @@ const achievements: Achievement[] = [
     rarity: 'RARE',
     accent: 'bg-primary',
     iconColor: 'text-primary',
-    certificate: '/images/certificate/Camilo Ignacio Zavala Cornejo - 2024-05-27-1.png'
+    certificate: 'images/certificate/Camilo Ignacio Zavala Cornejo - 2024-05-27-1.png'
   },
   {
     title: 'Licencia de Educación Media - Técnico Profesional',
@@ -194,7 +194,7 @@ const achievements: Achievement[] = [
     rarity: 'RARE',
     accent: 'bg-slate-500',
     iconColor: 'text-slate-400',
-    certificate: '/images/certificate/certificado tecnico nivel medio-1.png'
+    certificate: 'images/certificate/certificado tecnico nivel medio-1.png'
   }
 ]
 

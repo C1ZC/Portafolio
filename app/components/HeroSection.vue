@@ -49,7 +49,8 @@
           <div class="absolute inset-0 bg-primary/20 blur-[100px] rounded-full opacity-30 animate-pulse"></div>
           <div class="relative w-full max-w-md aspect-square rounded-xl overflow-hidden border-4 border-border-green shadow-2xl bg-surface-dark scanline">
            <div class="absolute inset-0 bg-cover bg-center"
-              style="background-image: url('/images/CamiloZavala.jpeg'); opacity: 0.8;" role="img"
+             :style="{ backgroundImage: `url(${useRuntimeConfig().app.baseURL}images/CamiloZavala.jpeg)`, opacity: 0.8 }"
+              role="img"
               aria-label="Digital avatar of a programmer in a cyberpunk setting"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
             <div class="absolute bottom-6 left-6 right-6 bg-deep-dark/90 backdrop-blur border border-primary/30 p-4 rounded-lg transform transition-transform hover:scale-105 duration-300">

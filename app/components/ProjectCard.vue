@@ -8,7 +8,8 @@
     }"
     :style="{ transform: tiltStyle }"
   >
-    <div class="h-48 w-full bg-cover bg-center relative overflow-hidden" :style="{ backgroundImage: `url(${project.image})` }">
+   <div class="h-48 w-full bg-cover bg-center relative overflow-hidden"
+      :style="{ backgroundImage: `url(${useRuntimeConfig().app.baseURL}${project.image})` }">
       <!-- CRT flicker overlay on hover -->
       <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent group-hover:animate-pulse transition-all duration-300 z-10"></div>
       <div class="absolute inset-0 opacity-0 group-hover:opacity-20 bg-primary z-20 pointer-events-none transition-opacity"></div>
