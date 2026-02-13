@@ -117,7 +117,7 @@ const itemsPerPage = 3
 const achievements: Achievement[] = [
   {
     title: 'Título Profesional - Documento Oficial',
-    info: 'Instituto Profesional AIEP • Diciembre 2024',
+    info: 'Instituto Profesional IACC • Diciembre 2024',
     icon: 'military_tech',
     rarity: 'LEGENDARY',
     accent: 'bg-yellow-500',
@@ -126,7 +126,7 @@ const achievements: Achievement[] = [
   },
   {
     title: 'Certificado de Título Profesional',
-    info: 'Instituto Profesional AIEP • Documento Oficial',
+    info: 'Instituto Profesional IACC • Documento Oficial',
     icon: 'workspace_premium',
     rarity: 'LEGENDARY',
     accent: 'bg-yellow-500',
