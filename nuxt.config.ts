@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     strictNuxtContentPaths: true,
   },
   app: {
-    baseURL: process.env.VERCEL_URL ? '/' : (process.env.NODE_ENV === 'production' ? '/Portafolio/' : '/'),
+    baseURL: process.env.VERCEL_URL ? '/' : (process.env.NODE_ENV === 'production' ? '/' : '/'),
     head: {
       title: 'Dev.Portfolio | Camilo Zavala',
       link: [
